@@ -9,8 +9,11 @@
 <link rel="stylesheet"   href="https://fonts.googleapis.com/css?family=PT Sans">
 <script src="https://kit.fontawesome.com/e46c019f1c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+
 <body>
-    <header>
+    <header data-aos="zoom-in">
         <div>
             <main>
                 <img src="./images/reall2-removebg-preview.png" alt="" >
@@ -32,7 +35,7 @@
     </header>
     <section >
          <div >
-            <br><br><br><br><br>
+            <br><br>
             <h1> Empowering Communities, Changing Lives  </h1>
             <p>Welcome to Duro & Kenny Foundation — committed to making a positive impact in lives through education, health, and empowerment.</p>
 
@@ -40,11 +43,11 @@
          </div>
         
     </section>
-    <section id="sec2">
-     <br><br><br><br>
-        <span>Abouts Us</span> <br>
-        <div>
-           <aside>
+ <section id="sec2" data-aos="fade-up">
+    <span>About Us</span>
+    <div>
+        <aside data-aos="fade-right">
+           
             <img src="./images/sec2.jpg" alt="" width="80%">
            </aside>
            <aside>
@@ -54,10 +57,10 @@
            </aside>
          </div>
     </section>
-    <section  id="sec3">
+    <section  id="sec3" data-aos="fade-up">
         <span>Our Mission</span>
         <div>
-            <aside>
+            <aside data-aos="fade-right">
                 <p> To create sustainable change by <br>empowering individuals with the tools,<br> knowledge, and support to thrive.</p>
             </aside>
             <aside>
@@ -65,10 +68,10 @@
             </aside>
         </div>
     </section>
-    <section>
+    <section data-aos="fade-up">
         <span>Programs</span>
         <div>
-            <aside>
+            <aside data-aos="fade-right">
                 <img src="./images/sec4.jpg" alt="" width="80%">
             </aside>
             <aside>
@@ -84,22 +87,22 @@
         </div>
     </section>
     <!-- Continue from previous code -->
-    <section>
+    <section data-aos="fade-up">
         <span>Success Stories</span>
         <div>
             <!-- <aside>
                 <img src="./images/image succes.jpg" alt="Smiling kids" width=69%>
             </aside> -->
-            <aside>
+            <aside data-aos="fade-right">
                 <p>We've transformed hundreds of lives through scholarships, skill development, and access to healthcare. Read how individuals like Mary, who now runs a successful tailoring business, got their start with us.</p>
             </aside>
         </div>
     </section>
 
-     <section>
+     <section data-aos="fade-up">
         <span>Get Involved</span>
         <div>
-            <aside>
+            <aside data-aos="fade-right">
                 <ul>
                   <li>
                       <a href="/volunteer.html">Volunteer</li></a>
@@ -117,10 +120,10 @@
         </div>
     </section> 
 
- <section>
+ <section data-aos="fade-up">
         <span>Contact Us</span>
         <div>
-            <aside>
+            <aside data-aos="zoom-in">
                 <form>
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" required><br><br>
@@ -142,10 +145,10 @@
         </div>
     </section>
 
-    <section>
+    <section data-aos="fade-up">
         <span>Donates</span>
         <div>
-            <aside>
+            <aside data-aos="flip-up">
                 <p>Your donation helps us reach more communities. Support education, healthcare, and youth empowerment today.</p>
                 <button style="
                 padding: 6% 10%;
@@ -170,9 +173,18 @@
         </div>
     </section>
 
-    <footer>
+    <footer data-aos="fade-up" data-aos-delay="10">
         <p>&copy; 2025 Duro & Kenny Foundation. All rights reserved.</p>
     </footer> 
+    <!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true // animate only once
+  });
+</script>
+
 </body>
 <script>
   const toggleBtn = document.getElementById("theme-toggle");
