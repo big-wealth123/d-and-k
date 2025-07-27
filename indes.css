@@ -48,7 +48,7 @@ section:nth-of-type(1) div:nth-of-type(1) h1{
  /* margin: 0 0 0 32%; */
  /* text-align: start ; */
  align-items: center;
- text-decoration: underline;
+ /* text-decoration: underline; */
 }
 section:nth-of-type(1) div:nth-of-type(1){
     text-align: center;
