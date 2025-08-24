@@ -93,12 +93,12 @@ section:nth-of-type(2) span{
      font-size: 190%;
 }
     section:nth-of-type(2) div:nth-of-type(1) p{
-        font-size: 150%;
+        font-size: 130%;
      /* margin: 0 0 0 20%; */
     }
    section:nth-of-type(2) div:nth-of-type(1) img{
     border-radius: 5%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
    }
    section:nth-of-type(3) span{
@@ -163,10 +163,10 @@ section:nth-of-type(4) span{
         text-align:start ;
     }
     section:nth-of-type(5) main img{
-        width: 80%;
+        width: 100%;
         /* margin: 0 0 0 20%; */
         border-radius: 5%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         
     }
  
@@ -201,7 +201,7 @@ form input, form textarea {
     margin: 0.5em 0rem 0 0;
     font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 section:nth-of-type(8) span{
 /* border: 1px solid blue; */
@@ -211,7 +211,7 @@ section:nth-of-type(8) span{
 
 }
 section:nth-of-type(7) button{
-    padding: 1.7em 2em;
+    padding: 1.7% 2%;
     background-color: #ffffff;
     color: rgb(255, 0, 0);
     border: none;
@@ -231,7 +231,7 @@ section:nth-of-type(7) button:hover {
  }
  section:nth-of-type(8)  p,
  section:nth-of-type(7)  p{
- font-size: 25px;
+ font-size: 22px;
  text-align: start;
  /* color: #e708d5; */
 
@@ -391,12 +391,11 @@ section:nth-of-type(8) button:hover {
         margin: 10px 0;
     }
 
- section:nth-of-type(2) img{
-
-    width: 50%;
-    height: auto;
-    margin: 0;
- }
+          section:nth-of-type(2) img{
+        width: 400px;
+        height: 450px;
+        /* margin: 0 17% 0 0; */
+      }
 }
 
 @media   (max-width: 768px) {
@@ -404,12 +403,12 @@ section:nth-of-type(8) button:hover {
     section:nth-of-type(n) div:nth-of-type(1) {
         flex-direction: column;
         text-align: center;
-        padding: 2%;
+        /* padding: 2%; */
     }
   section:nth-of-type(5) div aside img{
-      width: 800%;
+      width: 900%;
       margin: 0;
-      border: 1px solid black;
+      /* border: 1px solid black; */
   }
     section div aside,
     section:nth-of-type(n) div aside {
@@ -429,7 +428,7 @@ section:nth-of-type(8) button:hover {
 
     section:nth-of-type(1) p {
         font-size: 110%;
-        padding: 0 5%;
+        /* padding: 0 5%; */
     }
 
     section:nth-of-type(1) button {
@@ -446,7 +445,12 @@ section:nth-of-type(8) button:hover {
         font-size: 0.9rem;
         padding: 1.5em;
     }
+          section:nth-of-type(2) img{
+        width: 520px;
+        height: 550px;
+      }
 }
+
 @media screen and (max-width: 620px){
     section:nth-of-type(1) div:nth-of-type(1) p{
     font-size: 160%;
@@ -458,7 +462,9 @@ section:nth-of-type(8) button:hover {
     display: block;
     border: 1px solid black;
  }
-
+      section:nth-of-type(2) img{
+        width: 450px;
+      }
 }
 @media screen and (max-width: 500px) {
     section:nth-of-type(1) h1 {
@@ -492,16 +498,129 @@ section:nth-of-type(1) div:nth-of-type(1) p{
     form textarea {
         font-size: 0.95rem;
     }
-    section p{
-        font-size: 90%;
+
+         section:nth-of-type(5) main img{
+        width: 110%;
+        /* margin: 0 0 0 20%; */
+        border-radius: 5%;
+        /* border: 1px solid black; */
+        
+    }
+     section:nth-of-type(8)  p,
+ section:nth-of-type(7)  p{
+ font-size: 17px;
+ text-align: start;
+ /* color: #e708d5; */
+
+}
+section:nth-of-type(8) button{
+    padding: 3.7% 5%;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    font-size: 20px;
+
+}
+    section:nth-of-type(4) div:nth-of-type(1) p{
+        font-size: 120%;
+
+    }
+
+      section:nth-of-type(2) img{
+        width: 380px;
+      }
+}
+@media screen and (max-width: 410px){
+      section:nth-of-type(2) img{
+        width: 250px;
+      }
+    section:nth-of-type(1) div:nth-of-type(1) p{
+    font-size: 50%;
     margin: 5% 0 0 0;
+}
+    section:nth-of-type(8) aside:nth-of-type(2) p{
+        font-size: 10%;
+        border: 1px solid black;
+     }
+         section:nth-of-type(5) main img{
+        width: 50%;
+        /* margin: 0 0 0 20%; */
+        border-radius: 5%;
+        /* border: 1px solid black; */
+        
+    }
+     section:nth-of-type(8)  p,
+ section:nth-of-type(7)  p{
+ font-size: 11px;
+ text-align: start;
+ /* color: #e708d5; */
+
+}
+section:nth-of-type(8) button{
+    padding: 3.7% 5%;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    font-size: 20px;
+
+}
+    section:nth-of-type(4) div:nth-of-type(1) p{
+        font-size: 120%;
 
     }
 }
+::-webkit-scrollbar{
+    display: none;
+}
 @media(max-width:310px){
+      section:nth-of-type(2) img{
+        width: 250px;
+      }
     section:nth-of-type(1) div:nth-of-type(1) p{
-    font-size: 80%;
+    font-size: 50%;
     margin: 5% 0 0 0;
 }
+    section:nth-of-type(8) aside:nth-of-type(2) p{
+        font-size: 10%;
+        border: 1px solid black;
+     }
+         section:nth-of-type(5) main img{
+        width: 50%;
+        /* margin: 0 0 0 20%; */
+        border-radius: 5%;
+        /* border: 1px solid black; */
+        
+    }
+     section:nth-of-type(8)  p,
+ section:nth-of-type(7)  p{
+ font-size: 11px;
+ text-align: start;
+ /* color: #e708d5; */
 
+}
+section:nth-of-type(8) button{
+    padding: 3.7% 5%;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    font-size: 20px;
+
+}
+    section:nth-of-type(4) div:nth-of-type(1) p{
+        font-size: 120%;
+
+    }
+    header div{
+    /* border: 1px solid black; */
+    margin: 0 7% 0 1%;
+}
 }
